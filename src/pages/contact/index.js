@@ -39,6 +39,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
+              <div>Please get in touch and we can answer any questions or set up in the WeChat group.</div>
               <h1>Contact</h1>
               <form
                 name="contact"
