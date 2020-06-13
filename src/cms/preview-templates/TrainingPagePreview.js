@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { TrainingPageTemplate } from '../../templates/training-page'
 
-const ProductPagePreview = ({ entry, getAsset }) => {
+const TrainingPagePreview = ({ entry, getAsset, widgetFor }) => {
 
   return (
     <TrainingPageTemplate
@@ -15,11 +15,11 @@ const ProductPagePreview = ({ entry, getAsset }) => {
   )
 }
 
-ProductPagePreview.propTypes = {
+TrainingPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 }
 
-export default ProductPagePreview
+export default TrainingPagePreview

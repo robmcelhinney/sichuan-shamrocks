@@ -21,6 +21,7 @@ export const TrainingPageTemplate = ({
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
+          backgroundPosition: `center center`,
         }}
       >
         <h1
