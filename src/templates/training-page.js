@@ -23,17 +23,18 @@ export const TrainingPageTemplate = ({
           })`,
         }}
       >
-        <h2
+        <h1
           className="has-text-weight-bold is-size-1"
           style={{
             boxShadow: '0.5rem 0 0 #d02126, -0.5rem 0 0 #d02126',
             backgroundColor: '#d02126',
             color: 'white',
             padding: '1rem',
+            marginBottom: '0',
           }}
         >
           {title}
-        </h2>
+        </h1>
       </div>
       <section className="section section--gradient">
         <div className="container">
