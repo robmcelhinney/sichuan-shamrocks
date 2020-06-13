@@ -1,0 +1,185 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/styles.1e1747a4c411c48c4fc1.css
+  Cache-Control: public, max-age=31536000, immutable
+/styles-823ae8103e36ae8a7f9f.js
+  Cache-Control: public, max-age=31536000, immutable
+/commons-39210675347aefa3c1e0.js
+  Cache-Control: public, max-age=31536000, immutable
+/2e7b209d3fb98e653541bd6d6c2812ebf13f9ddc-25c3d94ab450b2c8f30c.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-index-page-js-5956c47757156e37240a.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-about-page-js-8ff07a74e56a7cef6518.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-training-page-js-a8b6139b75828668ba2e.js
+  Cache-Control: public, max-age=31536000, immutable
+/29107295-e3a3361e89f9e0e37c4c.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-blog-post-js-69cf61d02598fa96e702.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-tags-js-a3f009d480597fa43f08.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-js-9ba17744de7bea2fa288.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-contact-examples-js-b01cc3c6b1ad9136e303.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-contact-index-js-0a5b8e5a92bf2337ea4e.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-contact-thanks-js-a7f5584eafac9fb0d2b5.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-news-index-js-69bdd32e67bc4dfd2231.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-tags-index-js-a13370871efe9d9fa123.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-eca9c7a5b6f33690a3a8.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-6e1ce7bd1c56d36ddf6c.js
+  Cache-Control: public, max-age=31536000, immutable
+/532a2f07-5eaf3e57aa62a3931643.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-786f456187edc00dc145.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/sichuan-shamrocks/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/2e7b209d3fb98e653541bd6d6c2812ebf13f9ddc-25c3d94ab450b2c8f30c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-templates-index-page-js-5956c47757156e37240a.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/about/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-templates-about-page-js-8ff07a74e56a7cef6518.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/about/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/training/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-templates-training-page-js-a8b6139b75828668ba2e.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/training/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/news/2017-01-04-a-beginners-guide-to-brewing-with-chemex/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/29107295-e3a3361e89f9e0e37c4c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-templates-blog-post-js-69cf61d02598fa96e702.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/news/2017-01-04-a-beginners-guide-to-brewing-with-chemex/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/tags/fr-ted/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-templates-tags-js-a3f009d480597fa43f08.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/tags/fr-ted/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/tags/mrs-doyle/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-templates-tags-js-a3f009d480597fa43f08.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/tags/mrs-doyle/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/404/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-pages-404-js-9ba17744de7bea2fa288.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/contact/examples/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-pages-contact-examples-js-b01cc3c6b1ad9136e303.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/contact/examples/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/contact/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-pages-contact-index-js-0a5b8e5a92bf2337ea4e.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/contact/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/contact/thanks/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-pages-contact-thanks-js-a7f5584eafac9fb0d2b5.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/contact/thanks/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/news/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/2e7b209d3fb98e653541bd6d6c2812ebf13f9ddc-25c3d94ab450b2c8f30c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-pages-news-index-js-69bdd32e67bc4dfd2231.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/news/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/tags/
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/29107295-e3a3361e89f9e0e37c4c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-pages-tags-index-js-a13370871efe9d9fa123.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
+/sichuan-shamrocks/404.html
+  Link: </sichuan-shamrocks/webpack-runtime-eca9c7a5b6f33690a3a8.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/framework-6e1ce7bd1c56d36ddf6c.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/532a2f07-5eaf3e57aa62a3931643.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/app-786f456187edc00dc145.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/styles-823ae8103e36ae8a7f9f.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/commons-39210675347aefa3c1e0.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/component---src-pages-404-js-9ba17744de7bea2fa288.js>; rel=preload; as=script
+  Link: </sichuan-shamrocks/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </sichuan-shamrocks/page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin

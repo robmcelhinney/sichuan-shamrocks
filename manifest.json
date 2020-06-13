@@ -1,0 +1,5 @@
+{
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "static/logo.svg": "static/logo-16ec32194eb828e53cc232d9958f0498.svg"
+}
