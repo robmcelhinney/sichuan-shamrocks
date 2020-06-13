@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'Sichuan Shamrocks GAA Club',
+    siteUrl: `https://robmcelhinney.github.com/sichuan-shamrocks`,
     description:
       'Sichuan Shamrocks GAA club based in Chengdu, Sichuan, China.',
   },
+  pathPrefix: "/sichuan-shamrocks",
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
