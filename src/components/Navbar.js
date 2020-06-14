@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
 import LanguageMenu from './LanguageMenu.js'
@@ -10,13 +10,9 @@ const Navbar  = () => {
 
   const toggleHamburger = () => {
     // toggle the active boolean in the state
-    setActive(!this.state.active,
-      () => {
-        active
-        ? setNavBarActiveClass('is-active')
-        : setNavBarActiveClass('')
-      }
-    )
+    setActive(!active)
+    !active ? setNavBarActiveClass('is-active')
+      : setNavBarActiveClass('')
   }
 
   const { t } = useTranslation()

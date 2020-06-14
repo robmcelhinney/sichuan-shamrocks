@@ -12,6 +12,12 @@
     "message": "信息",
     "send": "发送"
   },
+  "training": {
+    "title": "训练"
+  },
+  "index": {
+    "contact": "联系"
+  },
   "navbar": {
     "about": "关于",
     "training": "训练",

@@ -14,6 +14,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  contactButton,
 }) => (
   <div>
     <div
@@ -77,7 +78,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/contact">
-                      Contact Us
+                      {contactButton}
                     </Link>
                   </div>
                 </div>
@@ -110,6 +111,7 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  contactButton: PropTypes.string
 }
 
 const IndexPage = ({ data }) => {
@@ -125,6 +127,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        contactButton={t('index.contact')}
       />
     </Layout>
   )
@@ -139,6 +142,8 @@ IndexPage.propTypes = {
 }
 
 export default IndexPage
+
+const query = "index-page"
 
 export const pageQuery = graphql`
   query IndexPageTemplate {

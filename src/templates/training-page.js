@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { useTranslation } from "react-i18next"
 
 export const TrainingPageTemplate = ({
   image,
@@ -13,6 +14,7 @@ export const TrainingPageTemplate = ({
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
+  const { t } = useTranslation()
   return (
     <div className="content">
       <div
@@ -34,7 +36,7 @@ export const TrainingPageTemplate = ({
             marginBottom: '0',
           }}
         >
-          {title}
+          {t('training.title')}
         </h1>
       </div>
       <section className="section section--gradient">

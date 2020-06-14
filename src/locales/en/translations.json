@@ -12,6 +12,12 @@
     "message": "Message",
     "send": "Send"
   },
+  "training": {
+    "title": "Training"
+  },
+  "index": {
+    "contact": "Contact Us"
+  },
   "navbar": {
     "about": "About",
     "training": "Training",
