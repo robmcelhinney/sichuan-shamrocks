@@ -1,0 +1,21 @@
+{
+  "home": {
+    "footerText": "用GATSBY增这个网站"
+  },
+  "news": {
+    "latestNews": "最新消息"
+  },
+  "contact": {
+    "contact": "联系",
+    "name": "名字",
+    "email": "电子邮件",
+    "message": "信息",
+    "send": "发送"
+  },
+  "navbar": {
+    "about": "关于",
+    "training": "训练",
+    "news": "消息",
+    "contact": "联系"
+  }
+}

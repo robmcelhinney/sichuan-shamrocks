@@ -1,0 +1,21 @@
+{
+  "home": {
+    "footerText": "Built with Gatsby"
+  },
+  "news": {
+    "latestNews": "Latest News"
+  },
+  "contact": {
+    "contact": "Contact",
+    "name": "Your Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+  "navbar": {
+    "about": "About",
+    "training": "Training",
+    "news": "News",
+    "contact": "Contact"
+  }
+}

@@ -1,85 +1,74 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
+import LanguageMenu from './LanguageMenu.js'
+import { useTranslation } from "react-i18next"
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
-    }
-  }
+const Navbar  = () => {
+  const [active, setActive] = useState(false);
+  const [navBarActiveClass, setNavBarActiveClass] = useState('');
 
-  toggleHamburger = () => {
+  const toggleHamburger = () => {
     // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
+    setActive(!this.state.active,
       () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
+        active
+        ? setNavBarActiveClass('is-active')
+        : setNavBarActiveClass('')
       }
     )
   }
 
-  render() {
-    return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Shamrocks Logo" className={"navLogo"} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
+  const { t } = useTranslation()
+
+  return (
+    <nav
+      className="navbar is-transparent"
+      role="navigation"
+      aria-label="main-navigation"
+    >
+      <div className="container">
+        <div className="navbar-brand">
+          <Link to="/" className="navbar-item" title="Logo">
+            <img src={logo} alt="Shamrocks Logo" className={"navLogo"} />
+          </Link>
+          {/* Hamburger menu */}
           <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`navbar-burger burger ${navBarActiveClass}`}
+            data-target="navMenu"
+            onClick={() => toggleHamburger()}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/training">
-                Training
-              </Link>
-              <Link className="navbar-item" to="/news">
-                News
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              {/* <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link> */}
-            </div>
+            <span />
+            <span />
+            <span />
           </div>
         </div>
-      </nav>
-    )
-  }
+        <div
+          id="navMenu"
+          className={`navbar-menu ${navBarActiveClass}`}
+        >
+          <div className="navbar-start has-text-centered">
+            <Link className="navbar-item" to="/about">
+              {t('navbar.about')}
+            </Link>
+            <Link className="navbar-item" to="/training">
+              {t('navbar.training')}
+            </Link>
+            <Link className="navbar-item" to="/news">
+              {t('navbar.news')}
+            </Link>
+            <Link className="navbar-item" to="/contact">
+              {t('navbar.contact')}
+            </Link>
+            {/* <Link className="navbar-item" to="/contact/examples">
+              Form Examples
+            </Link> */}
+            <LanguageMenu></LanguageMenu>
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
 }
 
 export default Navbar

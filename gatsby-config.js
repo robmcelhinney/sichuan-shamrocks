@@ -31,6 +31,13 @@ module.exports = {
         name: 'images',
       },
     },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        // add relative path to your layout component
+        component: `${__dirname}/src/components/languageLayout.js`
+      }
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
