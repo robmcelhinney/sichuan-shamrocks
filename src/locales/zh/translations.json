@@ -8,14 +8,24 @@
   "contact": {
     "contact": "联系",
     "name": "名字",
-    "email": "电子邮件",
+    "email": "邮件",
     "message": "信息",
     "send": "发送"
   },
   "navbar": {
     "about": "关于",
     "training": "训练",
-    "news": "消息",
+    "news": "博客",
     "contact": "联系"
+  },
+  "footer": {
+    "home": "家",
+    "about": "关于",
+    "training": "训练",
+    "news": "博客",
+    "contact": "联系",
+    "facebook": "脸书",
+    "twitter": "推特",
+    "instagram": "Instagram"
   }
 }

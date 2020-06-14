@@ -17,5 +17,15 @@
     "training": "Training",
     "news": "News",
     "contact": "Contact"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "About",
+    "training": "Training",
+    "news": "News",
+    "contact": "Contact",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram"
   }
 }
